@@ -1,11 +1,19 @@
-import React from 'react'
+import React from 'react';
+import './App.css';
+import Student from './student';
 
 function App() {
   return  (
-    <h1>Hello World from Rizwan and</h1>
+    <div className="App">
 
-  // const name = "Hello World" 
-  // return name
+     <h1>Hello World from Rizwan</h1>
+      <Student totalA="40" totalB="1"/>
+      
+
+
+
+  </div>
+
   );
 }
-  export default App
+  export default App;
